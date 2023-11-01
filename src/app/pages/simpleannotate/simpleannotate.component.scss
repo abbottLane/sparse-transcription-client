@@ -1,0 +1,166 @@
+.spacer {
+    flex: 1 1 auto;
+}
+:host ::ng-deep .editing .mat-focused .mat-form-field-underline {
+    background-color: #ffd740 !important; 
+ }
+ :host ::ng-deep .editing .mat-focused .mat-form-field-underline .mat-form-field-ripple {
+ background-color: #ffd740 !important;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .annobody {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        .left {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            flex-grow: 1;
+            padding: 0px 2px 0px 5px;
+            .annotate {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                margin-top: 10px; // clears the WS inserted mini map
+                .previous {
+                    height: 50px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+                .current {
+                    height: 240px;
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 18px;
+                    mat-form-field {
+                        //margin-left: 4px;
+                        margin-top: -5px;
+                    }
+                    .divider {
+                        height: 10px;
+                        //margin-left: 10px;
+                        //margin-right: 10px;
+                        border-bottom: 1px solid #eee;
+                    }
+                    .tokenview {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        .tokenbox {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            margin-right: 5px;
+                            .token {
+                                border-radius: 8px;
+                                background: #eee;
+                                padding: 2px 8px 2px 8px;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                mat-icon {
+                                    font-size: 18px;
+                                    line-height: 19px;
+                                    margin-left: 5px;
+                                    width: 18px;
+                                    height: 18px;
+                                    margin-right: -3px;
+                                    border-radius: 50%;
+                                    background-color: #eee;
+                                    color: black;
+                                }
+                            }
+                            .token.editing {
+                                color: white;
+                                background: #673ab7;
+                            }
+                            .token.inserting {
+                                color: white;
+                                background: #673ab7;
+                            }
+                            .token.editing {
+                                color: black;
+                                background: #ffd740;
+                            }
+                            .token.delete {
+                                background: #f44336;
+                                color: white;
+                            }
+                        } 
+                    }
+                    .wavesurfer-handle {
+                        background-color: red;
+                    }
+                }
+                .next {
+                    height: 50px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+                .text {
+                    margin-left: 25px;
+                    height: 20px;
+                    font-family: "Roboto";
+                    font-size: 1.1rem;
+                    color: grey;
+                }
+                .bigicon {
+                    transform: scale(2);
+                }
+            }
+            .unready {
+                display: none;
+            }
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            flex-grow: 1;
+            border-left: 1px solid #ccc;
+            .theading {
+                font-family: "Inter", sans-serif;
+                color: #673ab7;
+                margin-left: 5px;
+                font-size: 1.1rem;
+            }
+            .transcript {
+                overflow-y: auto;
+                display: flex;
+                flex-grow: 1;
+                flex-direction: column;
+                font-size: 1rem;
+                padding: 6px;
+                color: grey;
+                .tokenspan {
+                    margin: 0px 0px 5px 0px;
+                    padding-right: 26px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    position: relative;
+                }
+                .timestamp {
+                    font-size: .5rem;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    opacity: 0.6;
+                }
+                .current {
+                    color: black;
+                }
+                .current .timestamp {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

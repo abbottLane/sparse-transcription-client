@@ -1,0 +1,68 @@
+
+<div class="layout">
+    <mat-toolbar color="primary">
+        <span class="titletext">Annotate: {{this.project?.name}} - {{this.media?.name}}</span>
+        <span class="spacer"></span>
+        <button mat-icon-button (click)="close()">
+            <mat-icon>close</mat-icon>
+        </button>
+    </mat-toolbar>
+    <div class="annobody">
+        <div class="left">
+            <app-wavesurfer [wavheight]="150" [minimapheight]="50" [ticksheight]="20" [minimap]="false">
+            </app-wavesurfer>
+            <app-vadmap #vad [selected]="anno.rIndex" (navigate)="vadClick($event)"></app-vadmap>
+            <div class="annotate" [class.unready]="!ready">
+                <div class="previous" (click)="activatePreviousRegion()">
+                    <mat-icon color="primary" aria-hidden="false" aria-label="Previous" class="bigicon">keyboard_arrow_up
+                    </mat-icon>
+                    <div class="text">{{anno.prevanno}}</div>
+                </div>
+                <div class="current">
+                    <app-allodisplay #hinterbox></app-allodisplay>
+                    <div class="divider"></div>
+                    <div class="popup .mat-typography">
+                        <div *ngFor="let s of anno.completions" 
+                                [ngClass]="{'entry': true, 'user': s.userEntry !== null, 'canon': s.canonEntry !== null}"
+                                matTooltipPosition="after"
+                                [matTooltip]="s.canonEntry ? s.canonEntry.lexical_entry.pos + ' ' + s.canonEntry.lexical_entry.translation : null">
+                            <div [innerHTML]="s.token| boldpipe: annotation"></div>
+                            <!-- <div *ngIf="s.canonEntry" class="hover">
+                                <div class="title">{{s.canonEntry.lexical_entry.pos}} {{s.token}}</div>
+                                <div class="trans">{{s.canonEntry.lexical_entry.translation}}</div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <mat-form-field class="example-form-field" floatLabel="never"
+                        [color]="(insertpos === null) ? 'primary' : 'warn'">
+
+                        <input #typebox autofocus autoSizeInput matInput type="text" spellcheck="false"
+                            [(ngModel)]="annotation" (ngModelChange)="annotationChanged()"
+                            (keydown)="annotationKeyPress($event)" tabIndex="0"
+                            [placeholder]="(insertpos === null) ? 'Type here...' : 'Insert...'">
+                    </mat-form-field>
+                    <app-token #trow [tokens]="anno.tokens" (clicks)="tokenEvent($event)"></app-token>
+                    <div class="divider"></div>
+                </div>
+                <div class="next">
+                    
+                    <mat-icon color="primary" aria-hidden="false" aria-label="Next" class="bigicon">keyboard_arrow_down
+                    </mat-icon>
+                    <div class="text" (click)="activateNextRegion()">{{anno.nextanno}}</div>
+                </div>
+            </div>
+            <div *ngIf="!ready" class="spinnerwrapper">
+                <mat-spinner style="margin:0 auto;"></mat-spinner>
+            </div>
+        </div>
+        <div class="right">
+            <div class="theading">Transcript</div>
+            <div class="transcript">
+                <div *ngFor="let reg of anno.regions; index as i" class="tokenspan" (click)="clickTranscript(i)"
+                    [class.current]="anno.rIndex === i">
+                    <span *ngFor="let t of reg.tokens">{{t.form}}&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

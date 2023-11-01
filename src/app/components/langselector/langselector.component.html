@@ -1,0 +1,7 @@
+<mat-chip-list *ngIf="show" aria-label="Language selection" >
+    <mat-chip *ngFor="let lang of languages"
+            [selected]="selectedlanguage ? selectedlanguage.glottocode === lang.glottocode: false"
+            (click)="selectLang(lang)">
+        {{lang.name}}
+    </mat-chip>
+</mat-chip-list>

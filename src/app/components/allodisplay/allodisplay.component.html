@@ -1,0 +1,15 @@
+<div class="wrapper">
+    <div class="grid" [style.grid-template-columns]="'repeat('+segs.length+2+', 24px [allo])'">
+        <div *ngFor="let aseg of segs; let i = index" #seg
+                [style.grid-column-start]="'allo ' +  (i).toString()"
+                class="alloseg" [ngClass]="segClass[i]">
+            <div class="t">{{aseg.allo}}</div>
+        </div>
+        <div class="hit" *ngFor="let t of tokens" 
+                [style.grid-column-start]="t.start"
+                [style.grid-column-end]="t.end"
+                [ngClass]="t.class">
+            <div class="t">{{t.gloss}}</div>
+        </div>
+    </div>
+</div>

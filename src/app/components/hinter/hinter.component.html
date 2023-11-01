@@ -1,0 +1,8 @@
+<div class="layout">
+    <div class="allorow">
+        <div *ngFor="let aseg of segs; let i = index"
+            #seg class="seg" [ngClass]="segClass[i]">
+            {{aseg.allo}}
+        </div>
+    </div>
+</div>

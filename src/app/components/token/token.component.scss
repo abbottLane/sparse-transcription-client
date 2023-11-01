@@ -1,0 +1,89 @@
+.tokenlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 24px;
+    margin-left: 5px;
+    .mat-icon {
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .inserter {
+        color: #F44336;
+        font-weight: bold;
+        font-size: 24px;
+        margin-right: 5px;
+    }
+    .inserter.end {
+        color: #673ab7; 
+    }
+    .token {
+        position: relative;
+        margin-right: 5px;
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            .telement {
+                .menu {
+                    position: absolute;
+                    display: none;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    color: #FFD740;
+                    color: lightgrey;
+                    padding-bottom: 5px;
+                    background: white;
+                    .brow {
+                        height: 20px;
+                    }
+                    .brow:hover {
+                        color: #673ab7; 
+                        //color: #F44336;
+                    }
+                    .brow.em {
+                        //color: #F44336;
+                        color: #673ab7; 
+                    }
+                    .mid {
+                        flex-direction: column;
+                        align-items: center;
+                        margin-left: 3px;
+                        margin-right: 3px;
+                    }
+                    height: 40px;
+                    left: 50%;
+                    transform: translate(-50%, 50%);
+                }
+                .chip {
+                    border-radius: 8px;
+                    background: #eee;
+                    padding: 2px 8px 2px 8px;
+                }
+            }
+            .telement.selected {
+                .chip {
+                    background: #673ab7;
+                    color: white;
+                }
+                .menu {
+                    display: flex;
+                }
+            }
+        }
+        .wrapper:hover {
+            > .telement {
+                .menu {
+                    display: flex;
+                }
+                .chip {
+                    background: #673ab7;
+                    color: white;
+                }
+            }
+        }
+    }
+
+}
+

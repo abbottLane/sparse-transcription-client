@@ -1,0 +1,53 @@
+<h1 mat-dialog-title>Create new project</h1>
+
+<form [formGroup]="poo">
+    <div *ngIf="!loading; else loadingt" mat-dialog-content class="layout">
+        <mat-form-field class="example-full-width">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="" value="" [formControl]="nameField">
+            <!-- <mat-error *ngIf="nameField.hasError('required')">Name is required</mat-error> -->
+        </mat-form-field>
+        <mat-error *ngIf="nameField.errors?.required">Name is required</mat-error>
+        <mat-form-field appearance="fill">
+            <mat-label>Select Glossary</mat-label>
+            <mat-select [formControl]="glossaryField">
+                <mat-option [value]="'new'">
+                    Create new glossary</mat-option>
+                <mat-option *ngFor="let glossary of glossaries" [value]="glossary.id">
+                    Use {{glossary.name}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-error *ngIf="glossaryField.hasError('required')">Glossary required</mat-error>
+        <mat-form-field *ngIf="poo.controls.glossaryField.value === 'new'" class="example-full-width">
+            <mat-label>Glossary Name</mat-label>
+            <input matInput placeholder="" value="" [formControl]="glossaryName">
+        </mat-form-field>
+        <mat-error *ngIf="poo.controls.glossaryField.value === 'new' && glossaryName.hasError('required')">Glossary Name is required</mat-error>
+        <app-langselector *ngIf="poo.controls.glossaryField.value === 'new'" (selectLanguage)="selectLang($event)"></app-langselector>
+        <mat-error *ngIf="poo.controls.glossaryField.value === 'new' && !this.lang">Language required</mat-error>
+
+        <mat-form-field class="example-chip-list">
+            <mat-label>Tags</mat-label>
+            <mat-chip-list #chipList aria-label="Tag selection">
+                <mat-chip *ngFor="let chip of chips" [selectable]="selectable" [removable]="removable"
+                    (removed)="remove(chip)">
+                    {{chip}}
+                    <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+                </mat-chip>
+                <input placeholder="Add tags..." [matChipInputFor]="chipList"
+                    [matChipInputSeparatorKeyCodes]="separatorKeysCodes" [matChipInputAddOnBlur]="addOnBlur"
+                    (matChipInputTokenEnd)="add($event)">
+            </mat-chip-list>
+        </mat-form-field>
+    </div>
+    <ng-template #loadingt>
+        <mat-spinner *ngIf="loading"></mat-spinner>
+    </ng-template>
+</form>
+
+<div mat-dialog-actions>
+    <button mat-raised-button mat-dialog-close color="primary">Cancel</button>
+    <button mat-raised-button (click)="createProject()" color="primary"
+        [disabled]="poo.invalid || (poo.controls.glossaryField.value === 'new' && (this.lang == null || glossaryName.invalid))">Create
+        Project</button>
+</div>

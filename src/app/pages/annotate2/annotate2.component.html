@@ -1,0 +1,65 @@
+<mat-toolbar color="primary">
+    <span class="titletext">Annotate: {{this.project?.name}} - {{this.media?.name}}</span>
+    <span class="spacer"></span>
+    <button mat-icon-button (click)="close()">
+        <mat-icon>close</mat-icon>
+    </button>
+</mat-toolbar>
+<div class="layout">
+    <div class="left">
+        <app-wavesurfer [wavheight]="150" [minimapheight]="50" [ticksheight]="20" [minimap]="false">
+        </app-wavesurfer>
+        <app-vadmap #vad [selected]="anno.rIndex" (navigate)="vadClick($event)"></app-vadmap>
+        <div class="annotate" [class.unready]="!ready">
+            <div class="previous" (click)="activatePreviousRegion()">
+                <mat-icon color="primary" aria-hidden="false" aria-label="Previous" class="bigicon">keyboard_arrow_up</mat-icon>
+                <div class="text">{{anno.previousAnno()}}</div>
+            </div>
+            <div class="current">
+                <app-allodisplay #hinterbox></app-allodisplay>
+                <div class="tokenlist">
+                    <div *ngFor="let t of anno.getTokens()" class="token">
+                        {{anno.glossaryEntries[t.form]}}
+                        <mat-icon color="primary">cancel</mat-icon>
+                    </div>
+                </div>
+                <mat-form-field class="example-form-field" floatLabel="never">
+                    <!-- <mat-label>Type here</mat-label> -->
+                    <div class="popup .mat-typography">
+                        <!-- <mat-icon aria-hidden="false">north</mat-icon> -->
+                        <div *ngFor="let s of filterSuggestions()" class="entry">
+                            <div [innerHTML]="s | boldpipe: lastWord()"></div>
+                        </div>
+                    </div>
+                    <input #typebox autofocus autoSizeInput
+                            matInput type="text" 
+                            spellcheck="false"
+                            [(ngModel)]="annotation" 
+                            (ngModelChange)="annotationChanged()" 
+                            (keydown)="annotationKeyPress($event)"
+                            tabIndex="0" placeholder="Type here...">
+                    <!-- <button mat-button *ngIf="annotation" matSuffix mat-icon-button aria-label="Clear"
+                        (click)="annotation=''">
+                        <mat-icon>close</mat-icon>
+                    </button> -->
+                </mat-form-field>
+            </div>
+            <div class="next">
+                <div class="text" (click)="activateNextRegion()">{{anno.nextAnno()}}</div>
+                <mat-icon color="primary" aria-hidden="false" aria-label="Next" class="bigicon">keyboard_arrow_down</mat-icon>
+            </div>
+        </div>
+        <div *ngIf="!ready" class="spinnerwrapper">
+            <mat-spinner style="margin:0 auto;" ></mat-spinner>
+        </div>
+    </div>
+    <div class="right">
+        <div class="transcript">
+            <div *ngFor="let reg of anno.regions; index as i" class="token" (click)="anno.changeRegion(i)"
+                [class.current]="anno.rIndex === i">
+                {{reg.txt}}
+            </div>
+        </div>
+    </div>
+
+</div>

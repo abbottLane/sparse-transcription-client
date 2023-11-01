@@ -1,0 +1,37 @@
+<div class="layout">
+    <div class="left">
+        <app-wavesurfer [wavheight]="150" [minimapheight]="50" [ticksheight]="20">
+        </app-wavesurfer>
+        <div class="annotate">
+            <div class="previous" (click)="activatePreviousRegion()">
+                <mat-icon aria-hidden="false" aria-label="Previous">keyboard_arrow_up</mat-icon>
+                <div class="text" >{{prevAnno}}</div>
+            </div>
+            <div class="current">
+
+                <mat-form-field class="example-form-field" >
+                    <mat-label>{{regionState ? 'Type here...' : 'Ctrl to mark...'}}</mat-label>
+                    <input #typebox 
+                        [disabled]="!regionState" 
+                        matInput type="text" 
+                        [(ngModel)]="annotation" (keydown)="annotationKeyPress($event)"
+                        tabIndex="0">
+                    <button mat-button *ngIf="annotation" matSuffix mat-icon-button aria-label="Clear" (click)="annotation=''">
+                        <mat-icon>close</mat-icon>
+                    </button>
+                </mat-form-field>
+            </div>
+            <div class="next">
+                <div class="text" (click)="activateNextRegion()">{{nextAnno}}</div>
+                <mat-icon aria-hidden="false" aria-label="Previous">keyboard_arrow_down</mat-icon>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="transcript">
+            <div *ngFor="let token of transcript" class="token" (click)="activateRegion(token.regionId)">
+                {{token.token}}
+            </div>
+        </div>
+    </div>
+</div>

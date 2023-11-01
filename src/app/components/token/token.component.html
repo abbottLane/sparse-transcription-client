@@ -1,0 +1,21 @@
+<div class="tokenlist">
+    <div *ngFor="let token of tokens; let i = index" class="token" >
+        <div class="wrapper">
+            <div *ngIf="insertpos === i" class="inserter">&#8614;</div>
+            <div class="telement" [class.selected]="tokensel === i">
+                <div class="menu">
+                    <div class="brow" [class.em]="selwhat === 'prev'" (click)="setInsert(i)"><mat-icon>first_page</mat-icon></div>
+                    <div class="mid">
+                        <div (click)="edit(i)" class="brow" [class.em]="selwhat === 'edit'"><mat-icon>mode_edit</mat-icon></div>
+                        <div (click)="remove(i)" class="brow" [class.em]="selwhat === 'del'"><mat-icon>clear</mat-icon></div>
+                    </div>
+                    <div class="brow" [class.em]="selwhat === 'next'" (click)="setInsert(i+1)"><mat-icon>last_page</mat-icon></div>
+                </div>
+                <div class="chip">{{token.form}}</div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="insertpos === null" class="inserter end">&#8614;</div>
+</div>
+
+

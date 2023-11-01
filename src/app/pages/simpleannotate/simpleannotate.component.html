@@ -1,0 +1,78 @@
+<div class="layout">
+    <mat-toolbar color="primary">
+        <span class="titletext">Annotate: {{this.project?.name}} - {{this.media?.name}}</span>
+        <span class="spacer"></span>
+        <button mat-icon-button (click)="close()">
+            <mat-icon>close</mat-icon>
+        </button>
+    </mat-toolbar>
+    <div class="annobody">
+        <div class="left">
+            <app-wavesurfer 
+                [wavheight]="150" 
+                [minimapheight]="50" 
+                [ticksheight]="20" 
+                [minimap]="false">
+            </app-wavesurfer>
+            <app-vadmap #vad [selected]="anno.rIndex" (navigate)="vadClick($event)"></app-vadmap>
+            <div class="annotate" [class.unready]="!ready">
+                <div class="previous" (click)="activatePreviousRegion()">
+                    <mat-icon color="primary" aria-hidden="false" aria-label="Previous" class="bigicon">
+                        keyboard_arrow_up
+                    </mat-icon>
+                    <div class="text">{{anno.prevanno}}</div>
+                </div>
+                <div class="current" [ngClass]="{'editing': anno.editpos !== null, 'delete': anno.editpos !== null && annotation === ''}">
+                    <app-simplephones #hinterbox></app-simplephones>
+                    <div class="divider"></div>
+                    <mat-form-field class="example-form-field" floatLabel="never" 
+                            color="primary">
+                        <input #typebox autofocus autoSizeInput matInput type="text" spellcheck="false"
+                            [(ngModel)]="annotation" (ngModelChange)="annotationChanged()"
+                            (keydown)="annotationKeyPress($event)" tabIndex="0"
+                            [placeholder]="getPlaceholder()">
+                    </mat-form-field>
+                    <!-- <app-tokenview #trow [tokens]="anno.tokens" (clicks)="tokenEvent($event)"></app-tokenview> -->
+                    <div class="tokenview">
+                        <div *ngFor="let token of anno.tokens; index as i" class="tokenbox">
+                            <!-- <mat-icon class="inserter" (click)="clickInsert(i)"><span
+                                    class="material-icons">
+                                    vertical_align_bottom
+                                </span></mat-icon> -->
+                            <div *ngIf="anno.insertpos === i" class="token inserting">{{annotation === '' ? '&#8230;' :
+                                annotation}}</div>
+                            <div *ngIf="anno.editpos === i" class="token editing" [class.delete]="annotation === ''">
+                                {{annotation === '' ? 'delete' : annotation}}
+                                <mat-icon (click)="clickDeleteToken(token)">close</mat-icon>
+                            </div>
+                            <div *ngIf="anno.editpos !== i" class="token" (click)="clickToken(i)">{{token.form}}</div>
+                        </div>
+                        <div class="tokenbox">
+                            <div *ngIf="anno.state === 1" class="token inserting">{{annotation === '' ? '&#8230;' :
+                                annotation}}</div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+                <div class="next">
+                    <mat-icon color="primary" aria-hidden="false" aria-label="Next" class="bigicon">keyboard_arrow_down
+                    </mat-icon>
+                    <div class="text" (click)="activateNextRegion()">{{anno.nextanno}}</div>
+                </div>
+            </div>
+            <div *ngIf="!ready" class="spinnerwrapper">
+                <mat-spinner style="margin:0 auto;"></mat-spinner>
+            </div>
+        </div>
+        <div class="right">
+            <div class="theading">Transcript</div>
+            <div class="transcript">
+                <div *ngFor="let reg of anno.regions; index as i" class="tokenspan" (click)="clickTranscript(i)"
+                    [class.current]="anno.rIndex === i">
+                    <div *ngIf="reg.tokens.length > 0" class="timestamp">{{formatTimestamp(reg.start)}}</div>
+                    <span *ngFor="let t of reg.tokens">{{t.form}}&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

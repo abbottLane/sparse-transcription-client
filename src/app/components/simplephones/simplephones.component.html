@@ -1,0 +1,20 @@
+<div class="wrapper">
+    <div class="grid" [style.grid-template-columns]="'repeat('+phones.length+2+', 24px [allo])'">
+        <div *ngFor="let phone of phones; let i = index" #seg
+                [style.grid-column-start]="'allo ' +  (i).toString()"
+                class="alloseg" [ngClass]="phoneClass[i]">
+            <div class="t">{{phone.phone}}</div>
+        </div>
+        <div class="hit" *ngFor="let t of alignedtokens" 
+              
+                [style.grid-column]="(t.start+1).toString() + ' / ' + (t.stop+2).toString()">
+            <div class="t">{{t.token}}</div>
+        </div>
+    </div>
+</div>
+
+<!-- 
+[style.grid-column-start]="t.start"
+[style.grid-column-end]="t.stop" -->
+<!-- 
+[ngStyle]="{'grid-column-start': t.start + 1, 'grid-column-end': t.stop + 1}" -->

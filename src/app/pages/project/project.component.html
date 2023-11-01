@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+    <span class="titletext">Project: {{this.project?.name}}</span>
+    <span class="spacer"></span>
+    <button mat-icon-button (click)="close()">
+        <mat-icon>close</mat-icon>
+    </button>
+</mat-toolbar>
+<div class="layout">
+    <div class="medialist">
+        <div mat-subheader>Media Files</div>
+        <app-mediasnippet *ngFor="let m of mediaList" [media]="m" (actions)="mediaAction($event)"></app-mediasnippet>
+    </div>
+    <button mat-raised-button (click)="addMedia()">Add Media</button>
+</div>
+<input #fileinput type="file" name="name" style="display: none;" accept="audio/*" (change)="handleFiles($event)" />

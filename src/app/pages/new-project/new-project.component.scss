@@ -1,0 +1,22 @@
+.example-chip-list {
+    width: 100%;
+}
+.layout {
+    display: flex;
+    flex-direction: column;
+    mat-form-field {
+        margin-top: 10px;
+    }
+    .langsec {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    app-langselector {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    mat-error {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,184 @@
+.spacer {
+    flex: 1 1 auto;
+}
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .annobody {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        .left {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            flex-grow: 1;
+            padding: 0px 2px 0px 5px;
+            .annotate {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                margin-top: 10px; // clears the WS inserted mini map
+                .previous {
+                    height: 50px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+                .current {
+                    height: 240px;
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 18px;
+                    mat-form-field {
+                        //margin-left: 4px;
+                        margin-top: -5px;
+                    }
+                    .divider {
+                        height: 10px;
+                        //margin-left: 10px;
+                        //margin-right: 10px;
+                        border-bottom: 1px solid #eee;
+                    }
+                    .tokenlist {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        .append {
+                            display: inline-block;
+                            color: #673ab7; 
+                            margin-left: 4px;
+                            font-weight: bold;
+                            font-family: 'Noto Sans', sans-serif;
+                            font-size: 24px;  
+                        }
+                        .wrapper {
+                            display: flex;
+                            flex-direction: row;
+                            .token {
+                                background: #eee;
+                                border-radius: 10px;
+                                display: flex;
+                                flex-direction: row;
+                                line-height: 24px;
+                                align-items: center;
+                                padding-left: 8px;
+                                padding-right: 4px;
+                                mat-icon {
+                                    margin-left: 3px;
+                                    width: 20px;
+                                    height: 20px;
+                                    font-size: 20px;
+                                    display: inline-block;
+                                }
+                            }
+                            .break {
+                                width: 10px;
+                                height: 24px;
+                                line-height: 24px;
+                                color: #F44336;
+                                .arrow {
+                                    display: none;
+                                    font-family: 'Noto Sans', sans-serif;
+                                    font-size: 28px;   
+                                    font-weight: bold;
+                                    margin-top: -3px;
+                                    margin-left: -2px;
+                                    height: 24px;
+                                }
+                            }
+                            .break:hover > .arrow {
+                                display: inline-block;
+                            }
+                            .break.enabled {
+                                .arrow {
+                                    display: inline-block;
+                                    //color: #673ab7; 
+                                    //color: #FFD740;
+                                    color: #F44336;
+                                }
+                            }
+                        }
+                    }
+                    .popup {
+                        margin-top: 5px;
+                        font-size: 16px;
+                        display: flex;
+                        flex-direction: row;
+                        height: 20px;
+                        margin-bottom: 5px;
+                        flex-flow: row wrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        .entry {
+                            border-radius: 10px;
+                            margin-right: 5px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            background: lightgrey;
+                            position: relative;
+                        }
+                        .entry.canon {
+                            color: white;
+                            background: #673ab7;
+                        }
+                    }
+                    .wavesurfer-handle {
+                        background-color: red;
+                    }
+                }
+                .next {
+                    height: 50px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+                .text {
+                    margin-left: 10px;
+                    height: 20px;
+                    font-style: italic;
+                    font-family: 'Roboto';
+                }
+                .bigicon {
+                    transform: scale(2);
+                }
+            }
+            .unready {
+                display: none;
+            }
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            flex-grow: 1;
+            border-left: 1px solid #ccc;
+            .theading {
+                font-family: 'Inter', sans-serif;
+                color: #673ab7; 
+                margin-left: 5px; 
+                font-size: 1.1rem;
+            }
+            .transcript {
+                overflow-y: auto;
+                display: flex;
+                flex-grow: 1;
+                flex-direction: column;
+                font-size: 1.1rem;
+                padding: 6px;
+                color: grey;
+                .tokenspan {
+                    margin: 0px 0px 5px 0px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }
+                .current {
+                    color: black;
+                }
+            }
+        }
+    }
+    
+}

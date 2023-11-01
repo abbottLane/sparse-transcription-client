@@ -1,0 +1,22 @@
+.lbuttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    //justify-content: flex-end;
+    margin: 5px;
+    .lbutton {
+        font-size: 18px;
+        margin: 0px 6px 6px 0px;
+        //background: var(--ion-color-light-shade);
+        background: lightgrey;
+        border-radius: 18px;
+        //color: var(--ion-color-dark);
+        padding: 8px 18px 8px 18px;
+        text-align: center;
+        line-height: 18px;
+    }
+    .lbutton.selected {
+        background: var(--mat-color-tertiary);
+        color: var(--ion-color-primary-contrast);
+    }
+}

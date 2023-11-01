@@ -1,0 +1,12 @@
+<div class="wrapper">
+    <div class="whee mat-typography" [style]="whee">
+        <div class="text">xxx</div></div>
+    <mat-chip-list>
+        <ng-container *ngFor="let seg of inputSegments; let i = index">
+            <input *ngIf="seg.type == 'text'" [(ngModel)]="seg.text" autoSizeInput class="mat-typography" (ngModelChange)="modelChanged(i, $event)">
+            <ng-container *ngIf="seg.type == 'chips'">
+                <mat-chip *ngFor="let chip of seg.chips">{{chip}}</mat-chip>
+            </ng-container>
+        </ng-container>
+    </mat-chip-list>
+</div>

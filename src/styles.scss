@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+//@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; overflow-y: hidden;}
+:root {
+    --mat-color-background: #fafafa;
+    --mat-color-primary: #673ab7;
+    --mat-color-accent: #ffd740;
+    --mat-color-warn: #f44336;
+    --mat-color-lightback: rgba(0,0,0,.04);
+}
+
+.highlight {
+    font-weight: 500;
+    //color: black;
+}

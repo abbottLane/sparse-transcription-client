@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{media.name}}</mat-card-title>
+        <mat-card-subtitle>{{media.mimetype + ' ' + secondsToHms(media.metadata.duration)}}</mat-card-subtitle>
+        <button mat-icon-button [matMenuTriggerFor]="menu" class="menubutton" style="float: right;">
+            <mat-icon>more_vert</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item (click)="delete(media.id)">
+              <mat-icon>delete</mat-icon>
+              <span>Delete Media</span>
+            </button>
+          </mat-menu>
+    </mat-card-header>
+
+    <div class="buttonrow">
+        <button mat-raised-button [disabled]="!media.processed" (click)="actions.emit({id: media.id, action: 'annotate'})" class="annotatebutton">Annotate</button>
+        <mat-spinner *ngIf="!media.processed" diameter="32"></mat-spinner>
+    </div>
+</mat-card>

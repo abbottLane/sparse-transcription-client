@@ -1,0 +1,2612 @@
+[
+    {
+        "word": "nayin",
+        "start": 0.21,
+        "end": 0.239,
+        "name": "stuart_norne_119.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.32975240625853597,
+        "ex": "m0",
+        "ch_code": [
+            0,
+            79,
+            0
+        ]
+    },
+    {
+        "word": "kore",
+        "start": 1.23,
+        "end": 1.276,
+        "name": "stuart_norne_92.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.372421645770473,
+        "ex": "m6",
+        "ch_code": [
+            3,
+            66,
+            1
+        ]
+    },
+    {
+        "word": "dja",
+        "start": 0.99,
+        "end": 1.009,
+        "name": "stuart_norne_92.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3336960121462353,
+        "ex": "m9",
+        "ch_code": [
+            5,
+            66,
+            0
+        ]
+    },
+    {
+        "word": "ngad",
+        "start": 0.09,
+        "end": 0.11,
+        "name": "stuart_norne_92.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3214051824574572,
+        "ex": "m11",
+        "ch_code": [
+            7,
+            66,
+            0
+        ]
+    },
+    {
+        "word": "kabirribukbukkan",
+        "start": 0.06,
+        "end": 0.141,
+        "name": "stuart_norne_92.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3949412689131877,
+        "ex": "m15",
+        "ch_code": [
+            11,
+            66,
+            0
+        ]
+    },
+    {
+        "word": "nawarddeken",
+        "start": 0.75,
+        "end": 0.822,
+        "name": "stuart_norne_92.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4041052834141612,
+        "ex": "m19",
+        "ch_code": [
+            15,
+            66,
+            0
+        ]
+    },
+    {
+        "word": "ngad",
+        "start": 0.06,
+        "end": 0.08,
+        "name": "stuart_norne_14.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3362673613876113,
+        "ex": "m11",
+        "ch_code": [
+            7,
+            54,
+            0
+        ]
+    },
+    {
+        "word": "kadberre",
+        "start": 0.03,
+        "end": 0.072,
+        "name": "stuart_norne_14.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3503028561012607,
+        "ex": "m13",
+        "ch_code": [
+            9,
+            54,
+            0
+        ]
+    },
+    {
+        "word": "nayin",
+        "start": 1.41,
+        "end": 1.439,
+        "name": "stuart_norne_33.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3438144179129378,
+        "ex": "m0",
+        "ch_code": [
+            0,
+            47,
+            1
+        ]
+    },
+    {
+        "word": "kabandikan",
+        "start": 5.4,
+        "end": 5.482,
+        "name": "stuart_norne_33.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3664725229727372,
+        "ex": "m21",
+        "ch_code": [
+            17,
+            47,
+            5
+        ]
+    },
+    {
+        "word": "or",
+        "start": 1.2,
+        "end": 1.225,
+        "name": "stuart_norne_48.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3905247441101298,
+        "ex": "m7",
+        "ch_code": [
+            4,
+            25,
+            1
+        ]
+    },
+    {
+        "word": "ngad",
+        "start": 0.12,
+        "end": 0.14,
+        "name": "stuart_norne_48.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3342146360282493,
+        "ex": "m11",
+        "ch_code": [
+            7,
+            25,
+            0
+        ]
+    },
+    {
+        "word": "kunkuk",
+        "start": 1.17,
+        "end": 1.219,
+        "name": "stuart_norne_48.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.40735902606103386,
+        "ex": "m16",
+        "ch_code": [
+            12,
+            25,
+            1
+        ]
+    },
+    {
+        "word": "nayin",
+        "start": 1.86,
+        "end": 1.901,
+        "name": "stuart_norne_78.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.34982030385337315,
+        "ex": "m4",
+        "ch_code": [
+            0,
+            7,
+            1
+        ]
+    },
+    {
+        "word": "nayin",
+        "start": 1.89,
+        "end": 1.919,
+        "name": "stuart_norne_15.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3561340081138749,
+        "ex": "m0",
+        "ch_code": [
+            0,
+            64,
+            1
+        ]
+    },
+    {
+        "word": "ngad",
+        "start": 0.06,
+        "end": 0.08,
+        "name": "stuart_norne_15.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.30429469037609264,
+        "ex": "m11",
+        "ch_code": [
+            7,
+            64,
+            0
+        ]
+    },
+    {
+        "word": "kunkuk",
+        "start": 0.57,
+        "end": 0.619,
+        "name": "stuart_norne_15.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.42150854831558016,
+        "ex": "m16",
+        "ch_code": [
+            12,
+            64,
+            0
+        ]
+    },
+    {
+        "word": "balandaken",
+        "start": 0.75,
+        "end": 0.804,
+        "name": "stuart_norne_15.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.34002962495732597,
+        "ex": "m17",
+        "ch_code": [
+            13,
+            64,
+            0
+        ]
+    },
+    {
+        "word": "wurdurd",
+        "start": 1.47,
+        "end": 1.509,
+        "name": "stuart_norne_15.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.38500643332193457,
+        "ex": "m20",
+        "ch_code": [
+            16,
+            64,
+            1
+        ]
+    },
+    {
+        "word": "nayin",
+        "start": 0.06,
+        "end": 0.101,
+        "name": "stuart_norne_122.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.35663168622586344,
+        "ex": "m4",
+        "ch_code": [
+            0,
+            97,
+            0
+        ]
+    },
+    {
+        "word": "nayin",
+        "start": 1.95,
+        "end": 1.979,
+        "name": "stuart_norne_84.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.35932346472013993,
+        "ex": "m0",
+        "ch_code": [
+            0,
+            20,
+            1
+        ]
+    },
+    {
+        "word": "mak",
+        "start": 3.78,
+        "end": 3.817,
+        "name": "stuart_norne_84.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.2945321035240051,
+        "ex": "m10",
+        "ch_code": [
+            6,
+            20,
+            3
+        ]
+    },
+    {
+        "word": "kunmayali",
+        "start": 3.66,
+        "end": 3.719,
+        "name": "stuart_norne_84.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3986806352833192,
+        "ex": "m14",
+        "ch_code": [
+            10,
+            20,
+            3
+        ]
+    },
+    {
+        "word": "kabandikan",
+        "start": 0.81,
+        "end": 0.892,
+        "name": "stuart_norne_84.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.40123911956060593,
+        "ex": "m21",
+        "ch_code": [
+            17,
+            20,
+            0
+        ]
+    },
+    {
+        "word": "nayin",
+        "start": 2.58,
+        "end": 2.609,
+        "name": "stuart_norne_82.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3602625339512906,
+        "ex": "m0",
+        "ch_code": [
+            0,
+            109,
+            2
+        ]
+    },
+    {
+        "word": "mak",
+        "start": 2.76,
+        "end": 2.797,
+        "name": "stuart_norne_82.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.32104663160636415,
+        "ex": "m10",
+        "ch_code": [
+            6,
+            109,
+            2
+        ]
+    },
+    {
+        "word": "wakeng",
+        "start": 0.21,
+        "end": 0.255,
+        "name": "stuart_norne_40.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.35673914138177054,
+        "ex": "m1",
+        "ch_code": [
+            1,
+            80,
+            0
+        ]
+    },
+    {
+        "word": "konhda",
+        "start": 0.18,
+        "end": 0.23,
+        "name": "stuart_norne_40.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3587333932178479,
+        "ex": "m18",
+        "ch_code": [
+            14,
+            80,
+            0
+        ]
+    },
+    {
+        "word": "wakeng",
+        "start": 8.31,
+        "end": 8.371,
+        "name": "stuart_norne_27.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.36522686005274313,
+        "ex": "m5",
+        "ch_code": [
+            1,
+            39,
+            8
+        ]
+    },
+    {
+        "word": "wakeng",
+        "start": 5.04,
+        "end": 5.101,
+        "name": "stuart_norne_27.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3768639873166247,
+        "ex": "m3",
+        "ch_code": [
+            1,
+            39,
+            5
+        ]
+    },
+    {
+        "word": "kabandikan",
+        "start": 8.25,
+        "end": 8.332,
+        "name": "stuart_norne_27.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.36006110710705747,
+        "ex": "m21",
+        "ch_code": [
+            17,
+            39,
+            8
+        ]
+    },
+    {
+        "word": "wakeng",
+        "start": 1.35,
+        "end": 1.395,
+        "name": "stuart_norne_16.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3703584668294377,
+        "ex": "m1",
+        "ch_code": [
+            1,
+            85,
+            1
+        ]
+    },
+    {
+        "word": "yoh",
+        "start": 1.86,
+        "end": 1.894,
+        "name": "stuart_norne_16.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3985885136403455,
+        "ex": "m2",
+        "ch_code": [
+            2,
+            85,
+            1
+        ]
+    },
+    {
+        "word": "kunwok",
+        "start": 1.5,
+        "end": 1.542,
+        "name": "stuart_norne_16.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4128028954881637,
+        "ex": "m12",
+        "ch_code": [
+            8,
+            85,
+            1
+        ]
+    },
+    {
+        "word": "kadberre",
+        "start": 0.09,
+        "end": 0.132,
+        "name": "stuart_norne_16.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3354408846235281,
+        "ex": "m13",
+        "ch_code": [
+            9,
+            85,
+            0
+        ]
+    },
+    {
+        "word": "kunmayali",
+        "start": 1.2,
+        "end": 1.259,
+        "name": "stuart_norne_16.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3851846096434259,
+        "ex": "m14",
+        "ch_code": [
+            10,
+            85,
+            1
+        ]
+    },
+    {
+        "word": "konhda",
+        "start": 0.84,
+        "end": 0.89,
+        "name": "stuart_norne_16.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.30878179590359806,
+        "ex": "m18",
+        "ch_code": [
+            14,
+            85,
+            0
+        ]
+    },
+    {
+        "word": "kabandikan",
+        "start": 1.29,
+        "end": 1.372,
+        "name": "stuart_norne_16.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3936583678193817,
+        "ex": "m21",
+        "ch_code": [
+            17,
+            85,
+            1
+        ]
+    },
+    {
+        "word": "wakeng",
+        "start": 0.96,
+        "end": 1.005,
+        "name": "stuart_norne_114.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.37095067295565254,
+        "ex": "m1",
+        "ch_code": [
+            1,
+            21,
+            0
+        ]
+    },
+    {
+        "word": "wakeng",
+        "start": 2.04,
+        "end": 2.085,
+        "name": "stuart_norne_46.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3735305319155927,
+        "ex": "m1",
+        "ch_code": [
+            1,
+            59,
+            2
+        ]
+    },
+    {
+        "word": "or",
+        "start": 1.47,
+        "end": 1.495,
+        "name": "stuart_norne_46.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4031354462999827,
+        "ex": "m7",
+        "ch_code": [
+            4,
+            59,
+            1
+        ]
+    },
+    {
+        "word": "konhda",
+        "start": 0.27,
+        "end": 0.32,
+        "name": "stuart_norne_46.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.34206252269779835,
+        "ex": "m18",
+        "ch_code": [
+            14,
+            59,
+            0
+        ]
+    },
+    {
+        "word": "wakeng",
+        "start": 2.01,
+        "end": 2.055,
+        "name": "stuart_norne_120.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3736014958914952,
+        "ex": "m1",
+        "ch_code": [
+            1,
+            121,
+            2
+        ]
+    },
+    {
+        "word": "kore",
+        "start": 0.45,
+        "end": 0.496,
+        "name": "stuart_norne_120.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3688337289280115,
+        "ex": "m6",
+        "ch_code": [
+            3,
+            121,
+            0
+        ]
+    },
+    {
+        "word": "kunkuk",
+        "start": 1.26,
+        "end": 1.309,
+        "name": "stuart_norne_120.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.41306951826915134,
+        "ex": "m16",
+        "ch_code": [
+            12,
+            121,
+            1
+        ]
+    },
+    {
+        "word": "nawarddeken",
+        "start": 0.84,
+        "end": 0.912,
+        "name": "stuart_norne_120.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.39743115595961204,
+        "ex": "m19",
+        "ch_code": [
+            15,
+            121,
+            0
+        ]
+    },
+    {
+        "word": "wakeng",
+        "start": 2.67,
+        "end": 2.731,
+        "name": "stuart_norne_106.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.37528509867338483,
+        "ex": "m5",
+        "ch_code": [
+            1,
+            16,
+            2
+        ]
+    },
+    {
+        "word": "kunwok",
+        "start": 0.99,
+        "end": 1.032,
+        "name": "stuart_norne_106.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.41071248231356816,
+        "ex": "m12",
+        "ch_code": [
+            8,
+            16,
+            0
+        ]
+    },
+    {
+        "word": "balandaken",
+        "start": 2.64,
+        "end": 2.694,
+        "name": "stuart_norne_106.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3932588931165979,
+        "ex": "m17",
+        "ch_code": [
+            13,
+            16,
+            2
+        ]
+    },
+    {
+        "word": "nawarddeken",
+        "start": 2.61,
+        "end": 2.682,
+        "name": "stuart_norne_106.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.38634365302534773,
+        "ex": "m19",
+        "ch_code": [
+            15,
+            16,
+            2
+        ]
+    },
+    {
+        "word": "kabandikan",
+        "start": 2.58,
+        "end": 2.662,
+        "name": "stuart_norne_106.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.367383547112969,
+        "ex": "m21",
+        "ch_code": [
+            17,
+            16,
+            2
+        ]
+    },
+    {
+        "word": "wakeng",
+        "start": 4.44,
+        "end": 4.485,
+        "name": "stuart_norne_11.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.37567454485325036,
+        "ex": "m1",
+        "ch_code": [
+            1,
+            29,
+            4
+        ]
+    },
+    {
+        "word": "kadberre",
+        "start": 4.05,
+        "end": 4.092,
+        "name": "stuart_norne_11.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3669652342563848,
+        "ex": "m13",
+        "ch_code": [
+            9,
+            29,
+            4
+        ]
+    },
+    {
+        "word": "kabirribukbukkan",
+        "start": 1.47,
+        "end": 1.551,
+        "name": "stuart_norne_11.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.39532885396169504,
+        "ex": "m15",
+        "ch_code": [
+            11,
+            29,
+            1
+        ]
+    },
+    {
+        "word": "kabandikan",
+        "start": 4.38,
+        "end": 4.462,
+        "name": "stuart_norne_11.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3901392886147513,
+        "ex": "m21",
+        "ch_code": [
+            17,
+            29,
+            4
+        ]
+    },
+    {
+        "word": "kunwok",
+        "start": 0.06,
+        "end": 0.102,
+        "name": "stuart_norne_43.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4095695914362219,
+        "ex": "m12",
+        "ch_code": [
+            8,
+            92,
+            0
+        ]
+    },
+    {
+        "word": "kunmayali",
+        "start": 2.04,
+        "end": 2.099,
+        "name": "stuart_norne_43.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.38566189310078547,
+        "ex": "m14",
+        "ch_code": [
+            10,
+            92,
+            2
+        ]
+    },
+    {
+        "word": "balandaken",
+        "start": 3.87,
+        "end": 3.924,
+        "name": "stuart_norne_43.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.40401261615812667,
+        "ex": "m17",
+        "ch_code": [
+            13,
+            92,
+            3
+        ]
+    },
+    {
+        "word": "konhda",
+        "start": 3.81,
+        "end": 3.86,
+        "name": "stuart_norne_43.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3506483909455349,
+        "ex": "m18",
+        "ch_code": [
+            14,
+            92,
+            3
+        ]
+    },
+    {
+        "word": "kabandikan",
+        "start": 2.58,
+        "end": 2.662,
+        "name": "stuart_norne_43.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.39722455299126164,
+        "ex": "m21",
+        "ch_code": [
+            17,
+            92,
+            2
+        ]
+    },
+    {
+        "word": "yoh",
+        "start": 2.91,
+        "end": 2.944,
+        "name": "stuart_norne_79.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.37645032088305785,
+        "ex": "m2",
+        "ch_code": [
+            2,
+            114,
+            2
+        ]
+    },
+    {
+        "word": "mak",
+        "start": 1.74,
+        "end": 1.777,
+        "name": "stuart_norne_79.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.32130533318472326,
+        "ex": "m10",
+        "ch_code": [
+            6,
+            114,
+            1
+        ]
+    },
+    {
+        "word": "kunmayali",
+        "start": 0.69,
+        "end": 0.749,
+        "name": "stuart_norne_79.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3935466325250628,
+        "ex": "m14",
+        "ch_code": [
+            10,
+            114,
+            0
+        ]
+    },
+    {
+        "word": "kunkuk",
+        "start": 1.35,
+        "end": 1.399,
+        "name": "stuart_norne_79.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.41528187072028483,
+        "ex": "m16",
+        "ch_code": [
+            12,
+            114,
+            1
+        ]
+    },
+    {
+        "word": "yoh",
+        "start": 1.89,
+        "end": 1.924,
+        "name": "stuart_norne_102.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.38471658147140525,
+        "ex": "m2",
+        "ch_code": [
+            2,
+            62,
+            1
+        ]
+    },
+    {
+        "word": "yoh",
+        "start": 0.6,
+        "end": 0.634,
+        "name": "stuart_norne_24.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4007543987433248,
+        "ex": "m2",
+        "ch_code": [
+            2,
+            113,
+            0
+        ]
+    },
+    {
+        "word": "yoh",
+        "start": 1.95,
+        "end": 1.984,
+        "name": "stuart_norne_124.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4194236648226272,
+        "ex": "m2",
+        "ch_code": [
+            2,
+            26,
+            1
+        ]
+    },
+    {
+        "word": "kore",
+        "start": 1.53,
+        "end": 1.566,
+        "name": "stuart_norne_124.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.36035273235945486,
+        "ex": "m8",
+        "ch_code": [
+            3,
+            26,
+            1
+        ]
+    },
+    {
+        "word": "kore",
+        "start": 0.12,
+        "end": 0.166,
+        "name": "stuart_norne_124.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3610230244081708,
+        "ex": "m6",
+        "ch_code": [
+            3,
+            26,
+            0
+        ]
+    },
+    {
+        "word": "yoh",
+        "start": 1.14,
+        "end": 1.174,
+        "name": "stuart_norne_90.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4213379623562631,
+        "ex": "m2",
+        "ch_code": [
+            2,
+            77,
+            1
+        ]
+    },
+    {
+        "word": "kunmayali",
+        "start": 2.07,
+        "end": 2.129,
+        "name": "stuart_norne_90.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.39170178800835836,
+        "ex": "m14",
+        "ch_code": [
+            10,
+            77,
+            2
+        ]
+    },
+    {
+        "word": "nawarddeken",
+        "start": 0.36,
+        "end": 0.432,
+        "name": "stuart_norne_90.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3990213449558225,
+        "ex": "m19",
+        "ch_code": [
+            15,
+            77,
+            0
+        ]
+    },
+    {
+        "word": "kabandikan",
+        "start": 0.33,
+        "end": 0.412,
+        "name": "stuart_norne_90.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.404676198427899,
+        "ex": "m21",
+        "ch_code": [
+            17,
+            77,
+            0
+        ]
+    },
+    {
+        "word": "yoh",
+        "start": 4.59,
+        "end": 4.624,
+        "name": "stuart_norne_38.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.42291213140688455,
+        "ex": "m2",
+        "ch_code": [
+            2,
+            87,
+            4
+        ]
+    },
+    {
+        "word": "kunkuk",
+        "start": 1.83,
+        "end": 1.879,
+        "name": "stuart_norne_38.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4243989194658906,
+        "ex": "m16",
+        "ch_code": [
+            12,
+            87,
+            1
+        ]
+    },
+    {
+        "word": "yoh",
+        "start": 0.57,
+        "end": 0.604,
+        "name": "stuart_norne_30.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4253543076458022,
+        "ex": "m2",
+        "ch_code": [
+            2,
+            73,
+            0
+        ]
+    },
+    {
+        "word": "kunkuk",
+        "start": 0.54,
+        "end": 0.589,
+        "name": "stuart_norne_30.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.38466916009539087,
+        "ex": "m16",
+        "ch_code": [
+            12,
+            73,
+            0
+        ]
+    },
+    {
+        "word": "nawarddeken",
+        "start": 1.89,
+        "end": 1.962,
+        "name": "stuart_norne_30.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4034468535446256,
+        "ex": "m19",
+        "ch_code": [
+            15,
+            73,
+            1
+        ]
+    },
+    {
+        "word": "yoh",
+        "start": 0.81,
+        "end": 0.844,
+        "name": "stuart_norne_28.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.42609993650930206,
+        "ex": "m2",
+        "ch_code": [
+            2,
+            106,
+            0
+        ]
+    },
+    {
+        "word": "yoh",
+        "start": 0.9,
+        "end": 0.934,
+        "name": "stuart_norne_86.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4264433368570158,
+        "ex": "m2",
+        "ch_code": [
+            2,
+            89,
+            0
+        ]
+    },
+    {
+        "word": "kore",
+        "start": 0.12,
+        "end": 0.166,
+        "name": "stuart_norne_97.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3312352692284842,
+        "ex": "m6",
+        "ch_code": [
+            3,
+            18,
+            0
+        ]
+    },
+    {
+        "word": "kunwok",
+        "start": 0.48,
+        "end": 0.522,
+        "name": "stuart_norne_97.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.40061552559237645,
+        "ex": "m12",
+        "ch_code": [
+            8,
+            18,
+            0
+        ]
+    },
+    {
+        "word": "kore",
+        "start": 0.21,
+        "end": 0.256,
+        "name": "stuart_norne_112.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.335334805761357,
+        "ex": "m6",
+        "ch_code": [
+            3,
+            84,
+            0
+        ]
+    },
+    {
+        "word": "mak",
+        "start": 3.57,
+        "end": 3.607,
+        "name": "stuart_norne_112.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.32638682403082553,
+        "ex": "m10",
+        "ch_code": [
+            6,
+            84,
+            3
+        ]
+    },
+    {
+        "word": "kore",
+        "start": 0.48,
+        "end": 0.526,
+        "name": "stuart_norne_89.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3403172551553749,
+        "ex": "m6",
+        "ch_code": [
+            3,
+            124,
+            0
+        ]
+    },
+    {
+        "word": "or",
+        "start": 2.85,
+        "end": 2.875,
+        "name": "stuart_norne_89.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.41086567311608857,
+        "ex": "m7",
+        "ch_code": [
+            4,
+            124,
+            2
+        ]
+    },
+    {
+        "word": "konhda",
+        "start": 0.18,
+        "end": 0.23,
+        "name": "stuart_norne_89.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.34211455587635914,
+        "ex": "m18",
+        "ch_code": [
+            14,
+            124,
+            0
+        ]
+    },
+    {
+        "word": "kore",
+        "start": 0.48,
+        "end": 0.526,
+        "name": "stuart_norne_61.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.35454112918789454,
+        "ex": "m6",
+        "ch_code": [
+            3,
+            56,
+            0
+        ]
+    },
+    {
+        "word": "balandaken",
+        "start": 2.58,
+        "end": 2.634,
+        "name": "stuart_norne_61.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3867177337163456,
+        "ex": "m17",
+        "ch_code": [
+            13,
+            56,
+            2
+        ]
+    },
+    {
+        "word": "konhda",
+        "start": 0.12,
+        "end": 0.17,
+        "name": "stuart_norne_61.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.347571994844664,
+        "ex": "m18",
+        "ch_code": [
+            14,
+            56,
+            0
+        ]
+    },
+    {
+        "word": "kore",
+        "start": 0.06,
+        "end": 0.106,
+        "name": "stuart_norne_93.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3587186672418248,
+        "ex": "m6",
+        "ch_code": [
+            3,
+            99,
+            0
+        ]
+    },
+    {
+        "word": "mak",
+        "start": 2.76,
+        "end": 2.797,
+        "name": "stuart_norne_93.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.31042785897195524,
+        "ex": "m10",
+        "ch_code": [
+            6,
+            99,
+            2
+        ]
+    },
+    {
+        "word": "kunwok",
+        "start": 0.84,
+        "end": 0.882,
+        "name": "stuart_norne_93.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4148952971410126,
+        "ex": "m12",
+        "ch_code": [
+            8,
+            99,
+            0
+        ]
+    },
+    {
+        "word": "kore",
+        "start": 0.6,
+        "end": 0.646,
+        "name": "stuart_norne_85.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3659258551320517,
+        "ex": "m6",
+        "ch_code": [
+            3,
+            5,
+            0
+        ]
+    },
+    {
+        "word": "kadberre",
+        "start": 1.59,
+        "end": 1.632,
+        "name": "stuart_norne_85.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3903572537379708,
+        "ex": "m13",
+        "ch_code": [
+            9,
+            5,
+            1
+        ]
+    },
+    {
+        "word": "or",
+        "start": 0.63,
+        "end": 0.655,
+        "name": "stuart_norne_8.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3826893156674426,
+        "ex": "m7",
+        "ch_code": [
+            4,
+            102,
+            0
+        ]
+    },
+    {
+        "word": "wurdurd",
+        "start": 1.8,
+        "end": 1.839,
+        "name": "stuart_norne_8.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.41393214188400745,
+        "ex": "m20",
+        "ch_code": [
+            16,
+            102,
+            1
+        ]
+    },
+    {
+        "word": "or",
+        "start": 4.23,
+        "end": 4.255,
+        "name": "stuart_norne_32.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3902177826147057,
+        "ex": "m7",
+        "ch_code": [
+            4,
+            0,
+            4
+        ]
+    },
+    {
+        "word": "or",
+        "start": 0.33,
+        "end": 0.355,
+        "name": "stuart_norne_110.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.39376751102320445,
+        "ex": "m7",
+        "ch_code": [
+            4,
+            4,
+            0
+        ]
+    },
+    {
+        "word": "ngad",
+        "start": 0.18,
+        "end": 0.2,
+        "name": "stuart_norne_110.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.31904777167105086,
+        "ex": "m11",
+        "ch_code": [
+            7,
+            4,
+            0
+        ]
+    },
+    {
+        "word": "kadberre",
+        "start": 0.15,
+        "end": 0.192,
+        "name": "stuart_norne_110.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3500689732472938,
+        "ex": "m13",
+        "ch_code": [
+            9,
+            4,
+            0
+        ]
+    },
+    {
+        "word": "or",
+        "start": 1.23,
+        "end": 1.255,
+        "name": "stuart_norne_13.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3989690464635255,
+        "ex": "m7",
+        "ch_code": [
+            4,
+            8,
+            1
+        ]
+    },
+    {
+        "word": "dja",
+        "start": 0.96,
+        "end": 0.979,
+        "name": "stuart_norne_13.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.35662361261469544,
+        "ex": "m9",
+        "ch_code": [
+            5,
+            8,
+            0
+        ]
+    },
+    {
+        "word": "or",
+        "start": 0.15,
+        "end": 0.175,
+        "name": "stuart_norne_53.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.40230491830059195,
+        "ex": "m7",
+        "ch_code": [
+            4,
+            33,
+            0
+        ]
+    },
+    {
+        "word": "konhda",
+        "start": 2.22,
+        "end": 2.27,
+        "name": "stuart_norne_53.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.32945933029617935,
+        "ex": "m18",
+        "ch_code": [
+            14,
+            33,
+            2
+        ]
+    },
+    {
+        "word": "or",
+        "start": 1.86,
+        "end": 1.885,
+        "name": "stuart_norne_95.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.40507316770124807,
+        "ex": "m7",
+        "ch_code": [
+            4,
+            15,
+            1
+        ]
+    },
+    {
+        "word": "or",
+        "start": 0.42,
+        "end": 0.445,
+        "name": "stuart_norne_50.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.40852636608971266,
+        "ex": "m7",
+        "ch_code": [
+            4,
+            37,
+            0
+        ]
+    },
+    {
+        "word": "kabirribukbukkan",
+        "start": 0.15,
+        "end": 0.231,
+        "name": "stuart_norne_50.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4290146380173531,
+        "ex": "m15",
+        "ch_code": [
+            11,
+            37,
+            0
+        ]
+    },
+    {
+        "word": "dja",
+        "start": 1.44,
+        "end": 1.459,
+        "name": "stuart_norne_26.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.34212869914275157,
+        "ex": "m9",
+        "ch_code": [
+            5,
+            65,
+            1
+        ]
+    },
+    {
+        "word": "dja",
+        "start": 0.72,
+        "end": 0.739,
+        "name": "stuart_norne_10.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3533207539709528,
+        "ex": "m9",
+        "ch_code": [
+            5,
+            12,
+            0
+        ]
+    },
+    {
+        "word": "dja",
+        "start": 0.3,
+        "end": 0.319,
+        "name": "stuart_norne_118.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.35695575355075415,
+        "ex": "m9",
+        "ch_code": [
+            5,
+            91,
+            0
+        ]
+    },
+    {
+        "word": "kabandikan",
+        "start": 0.06,
+        "end": 0.142,
+        "name": "stuart_norne_118.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.40321539018842906,
+        "ex": "m21",
+        "ch_code": [
+            17,
+            91,
+            0
+        ]
+    },
+    {
+        "word": "dja",
+        "start": 0.03,
+        "end": 0.049,
+        "name": "stuart_norne_96.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3633237992732398,
+        "ex": "m9",
+        "ch_code": [
+            5,
+            76,
+            0
+        ]
+    },
+    {
+        "word": "dja",
+        "start": 0.03,
+        "end": 0.049,
+        "name": "stuart_norne_17.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3635763719274464,
+        "ex": "m9",
+        "ch_code": [
+            5,
+            74,
+            0
+        ]
+    },
+    {
+        "word": "mak",
+        "start": 0.06,
+        "end": 0.097,
+        "name": "stuart_norne_17.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.33154415817650923,
+        "ex": "m10",
+        "ch_code": [
+            6,
+            74,
+            0
+        ]
+    },
+    {
+        "word": "dja",
+        "start": 0.33,
+        "end": 0.349,
+        "name": "stuart_norne_52.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.36594592321699454,
+        "ex": "m9",
+        "ch_code": [
+            5,
+            6,
+            0
+        ]
+    },
+    {
+        "word": "kunkuk",
+        "start": 0.12,
+        "end": 0.169,
+        "name": "stuart_norne_52.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4250808390201535,
+        "ex": "m16",
+        "ch_code": [
+            12,
+            6,
+            0
+        ]
+    },
+    {
+        "word": "dja",
+        "start": 3.51,
+        "end": 3.529,
+        "name": "stuart_norne_25.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.36610093360488866,
+        "ex": "m9",
+        "ch_code": [
+            5,
+            95,
+            3
+        ]
+    },
+    {
+        "word": "dja",
+        "start": 1.41,
+        "end": 1.429,
+        "name": "stuart_norne_60.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3688869850858186,
+        "ex": "m9",
+        "ch_code": [
+            5,
+            24,
+            1
+        ]
+    },
+    {
+        "word": "wurdurd",
+        "start": 2.85,
+        "end": 2.889,
+        "name": "stuart_norne_60.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4246612721121478,
+        "ex": "m20",
+        "ch_code": [
+            16,
+            24,
+            2
+        ]
+    },
+    {
+        "word": "mak",
+        "start": 1.71,
+        "end": 1.747,
+        "name": "stuart_norne_74.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.2671587340518736,
+        "ex": "m10",
+        "ch_code": [
+            6,
+            117,
+            1
+        ]
+    },
+    {
+        "word": "kabirribukbukkan",
+        "start": 0.06,
+        "end": 0.141,
+        "name": "stuart_norne_74.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4188643822465778,
+        "ex": "m15",
+        "ch_code": [
+            11,
+            117,
+            0
+        ]
+    },
+    {
+        "word": "mak",
+        "start": 1.08,
+        "end": 1.117,
+        "name": "stuart_norne_41.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3331010079109005,
+        "ex": "m10",
+        "ch_code": [
+            6,
+            46,
+            1
+        ]
+    },
+    {
+        "word": "konhda",
+        "start": 2.85,
+        "end": 2.9,
+        "name": "stuart_norne_41.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.36417479395771263,
+        "ex": "m18",
+        "ch_code": [
+            14,
+            46,
+            2
+        ]
+    },
+    {
+        "word": "wurdurd",
+        "start": 1.32,
+        "end": 1.359,
+        "name": "stuart_norne_41.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3738640774228585,
+        "ex": "m20",
+        "ch_code": [
+            16,
+            46,
+            1
+        ]
+    },
+    {
+        "word": "mak",
+        "start": 1.17,
+        "end": 1.207,
+        "name": "stuart_norne_34.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.33332535207772235,
+        "ex": "m10",
+        "ch_code": [
+            6,
+            69,
+            1
+        ]
+    },
+    {
+        "word": "kabirribukbukkan",
+        "start": 3.96,
+        "end": 4.041,
+        "name": "stuart_norne_34.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.39004569163098674,
+        "ex": "m15",
+        "ch_code": [
+            11,
+            69,
+            3
+        ]
+    },
+    {
+        "word": "mak",
+        "start": 0.54,
+        "end": 0.577,
+        "name": "stuart_norne_58.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.33907921824063886,
+        "ex": "m10",
+        "ch_code": [
+            6,
+            48,
+            0
+        ]
+    },
+    {
+        "word": "wurdurd",
+        "start": 2.04,
+        "end": 2.079,
+        "name": "stuart_norne_58.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4139723330675625,
+        "ex": "m20",
+        "ch_code": [
+            16,
+            48,
+            2
+        ]
+    },
+    {
+        "word": "ngad",
+        "start": 2.25,
+        "end": 2.27,
+        "name": "stuart_norne_77.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.30843920368719036,
+        "ex": "m11",
+        "ch_code": [
+            7,
+            51,
+            2
+        ]
+    },
+    {
+        "word": "kunwok",
+        "start": 2.22,
+        "end": 2.262,
+        "name": "stuart_norne_77.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4074346545961127,
+        "ex": "m12",
+        "ch_code": [
+            8,
+            51,
+            2
+        ]
+    },
+    {
+        "word": "ngad",
+        "start": 0.12,
+        "end": 0.14,
+        "name": "stuart_norne_105.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.31181743587849614,
+        "ex": "m11",
+        "ch_code": [
+            7,
+            71,
+            0
+        ]
+    },
+    {
+        "word": "kadberre",
+        "start": 0.6,
+        "end": 0.642,
+        "name": "stuart_norne_105.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3962385416636635,
+        "ex": "m13",
+        "ch_code": [
+            9,
+            71,
+            0
+        ]
+    },
+    {
+        "word": "ngad",
+        "start": 3.09,
+        "end": 3.11,
+        "name": "stuart_norne_103.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3134814223836306,
+        "ex": "m11",
+        "ch_code": [
+            7,
+            96,
+            3
+        ]
+    },
+    {
+        "word": "kunmayali",
+        "start": 0.9,
+        "end": 0.959,
+        "name": "stuart_norne_103.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4044742127115925,
+        "ex": "m14",
+        "ch_code": [
+            10,
+            96,
+            0
+        ]
+    },
+    {
+        "word": "ngad",
+        "start": 2.16,
+        "end": 2.18,
+        "name": "stuart_norne_19.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.322084763582095,
+        "ex": "m11",
+        "ch_code": [
+            7,
+            98,
+            2
+        ]
+    },
+    {
+        "word": "kunmayali",
+        "start": 2.49,
+        "end": 2.549,
+        "name": "stuart_norne_19.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.37321172485222226,
+        "ex": "m14",
+        "ch_code": [
+            10,
+            98,
+            2
+        ]
+    },
+    {
+        "word": "balandaken",
+        "start": 0.21,
+        "end": 0.264,
+        "name": "stuart_norne_19.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3566415321847242,
+        "ex": "m17",
+        "ch_code": [
+            13,
+            98,
+            0
+        ]
+    },
+    {
+        "word": "ngad",
+        "start": 1.02,
+        "end": 1.04,
+        "name": "stuart_norne_12.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.33181148183726433,
+        "ex": "m11",
+        "ch_code": [
+            7,
+            112,
+            1
+        ]
+    },
+    {
+        "word": "kabirribukbukkan",
+        "start": 0.33,
+        "end": 0.411,
+        "name": "stuart_norne_12.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.37706971088254343,
+        "ex": "m15",
+        "ch_code": [
+            11,
+            112,
+            0
+        ]
+    },
+    {
+        "word": "kunwok",
+        "start": 0.3,
+        "end": 0.342,
+        "name": "stuart_norne_76.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.399476888042938,
+        "ex": "m12",
+        "ch_code": [
+            8,
+            88,
+            0
+        ]
+    },
+    {
+        "word": "kunwok",
+        "start": 3.87,
+        "end": 3.912,
+        "name": "stuart_norne_20.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.40881807304224305,
+        "ex": "m12",
+        "ch_code": [
+            8,
+            78,
+            3
+        ]
+    },
+    {
+        "word": "kunmayali",
+        "start": 2.43,
+        "end": 2.489,
+        "name": "stuart_norne_20.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4021377608635131,
+        "ex": "m14",
+        "ch_code": [
+            10,
+            78,
+            2
+        ]
+    },
+    {
+        "word": "wurdurd",
+        "start": 0.45,
+        "end": 0.489,
+        "name": "stuart_norne_20.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4124468823999669,
+        "ex": "m20",
+        "ch_code": [
+            16,
+            78,
+            0
+        ]
+    },
+    {
+        "word": "kunwok",
+        "start": 1.59,
+        "end": 1.632,
+        "name": "stuart_norne_37.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.40930203198572146,
+        "ex": "m12",
+        "ch_code": [
+            8,
+            63,
+            1
+        ]
+    },
+    {
+        "word": "kadberre",
+        "start": 0.39,
+        "end": 0.432,
+        "name": "stuart_norne_37.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3858705822977678,
+        "ex": "m13",
+        "ch_code": [
+            9,
+            63,
+            0
+        ]
+    },
+    {
+        "word": "kunwok",
+        "start": 0.09,
+        "end": 0.132,
+        "name": "stuart_norne_87.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.41583235978712224,
+        "ex": "m12",
+        "ch_code": [
+            8,
+            34,
+            0
+        ]
+    },
+    {
+        "word": "balandaken",
+        "start": 0.24,
+        "end": 0.294,
+        "name": "stuart_norne_87.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3918863888097731,
+        "ex": "m17",
+        "ch_code": [
+            13,
+            34,
+            0
+        ]
+    },
+    {
+        "word": "kadberre",
+        "start": 0.27,
+        "end": 0.312,
+        "name": "stuart_norne_18.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.36416410920196995,
+        "ex": "m13",
+        "ch_code": [
+            9,
+            53,
+            0
+        ]
+    },
+    {
+        "word": "kadberre",
+        "start": 1.56,
+        "end": 1.602,
+        "name": "stuart_norne_36.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3745923215411871,
+        "ex": "m13",
+        "ch_code": [
+            9,
+            116,
+            1
+        ]
+    },
+    {
+        "word": "kadberre",
+        "start": 1.05,
+        "end": 1.092,
+        "name": "stuart_norne_59.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.38771799277942365,
+        "ex": "m13",
+        "ch_code": [
+            9,
+            30,
+            1
+        ]
+    },
+    {
+        "word": "balandaken",
+        "start": 0.96,
+        "end": 1.014,
+        "name": "stuart_norne_59.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3859522443103526,
+        "ex": "m17",
+        "ch_code": [
+            13,
+            30,
+            0
+        ]
+    },
+    {
+        "word": "kunmayali",
+        "start": 0.72,
+        "end": 0.779,
+        "name": "stuart_norne_100.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.38353865224828243,
+        "ex": "m14",
+        "ch_code": [
+            10,
+            58,
+            0
+        ]
+    },
+    {
+        "word": "kunmayali",
+        "start": 1.02,
+        "end": 1.079,
+        "name": "stuart_norne_99.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.39979866367859224,
+        "ex": "m14",
+        "ch_code": [
+            10,
+            119,
+            1
+        ]
+    },
+    {
+        "word": "kabirribukbukkan",
+        "start": 0.09,
+        "end": 0.171,
+        "name": "stuart_norne_9.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.397455063624792,
+        "ex": "m15",
+        "ch_code": [
+            11,
+            107,
+            0
+        ]
+    },
+    {
+        "word": "kabirribukbukkan",
+        "start": 0.51,
+        "end": 0.591,
+        "name": "stuart_norne_7.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4113043044678426,
+        "ex": "m15",
+        "ch_code": [
+            11,
+            82,
+            0
+        ]
+    },
+    {
+        "word": "balandaken",
+        "start": 2.19,
+        "end": 2.244,
+        "name": "stuart_norne_7.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4043158212507273,
+        "ex": "m17",
+        "ch_code": [
+            13,
+            82,
+            2
+        ]
+    },
+    {
+        "word": "wurdurd",
+        "start": 0.09,
+        "end": 0.129,
+        "name": "stuart_norne_7.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.37232329860008145,
+        "ex": "m20",
+        "ch_code": [
+            16,
+            82,
+            0
+        ]
+    },
+    {
+        "word": "kabandikan",
+        "start": 1.23,
+        "end": 1.312,
+        "name": "stuart_norne_7.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3813939389566729,
+        "ex": "m21",
+        "ch_code": [
+            17,
+            82,
+            1
+        ]
+    },
+    {
+        "word": "kabirribukbukkan",
+        "start": 0.21,
+        "end": 0.291,
+        "name": "stuart_norne_62.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4226022977677443,
+        "ex": "m15",
+        "ch_code": [
+            11,
+            115,
+            0
+        ]
+    },
+    {
+        "word": "kabirribukbukkan",
+        "start": 2.73,
+        "end": 2.811,
+        "name": "stuart_norne_21.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.42496452554326014,
+        "ex": "m15",
+        "ch_code": [
+            11,
+            125,
+            2
+        ]
+    },
+    {
+        "word": "kunkuk",
+        "start": 0.63,
+        "end": 0.679,
+        "name": "stuart_norne_39.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.39398617124035545,
+        "ex": "m16",
+        "ch_code": [
+            12,
+            28,
+            0
+        ]
+    },
+    {
+        "word": "nawarddeken",
+        "start": 2.46,
+        "end": 2.532,
+        "name": "stuart_norne_39.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.41162434832032463,
+        "ex": "m19",
+        "ch_code": [
+            15,
+            28,
+            2
+        ]
+    },
+    {
+        "word": "kunkuk",
+        "start": 0.96,
+        "end": 1.009,
+        "name": "stuart_norne_31.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4224434312996189,
+        "ex": "m16",
+        "ch_code": [
+            12,
+            2,
+            0
+        ]
+    },
+    {
+        "word": "kunkuk",
+        "start": 0.84,
+        "end": 0.889,
+        "name": "stuart_norne_49.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4250369317910391,
+        "ex": "m16",
+        "ch_code": [
+            12,
+            42,
+            0
+        ]
+    },
+    {
+        "word": "balandaken",
+        "start": 0.84,
+        "end": 0.894,
+        "name": "stuart_norne_104.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3900145759070803,
+        "ex": "m17",
+        "ch_code": [
+            13,
+            105,
+            0
+        ]
+    },
+    {
+        "word": "konhda",
+        "start": 1.59,
+        "end": 1.64,
+        "name": "stuart_norne_98.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.34682448709223695,
+        "ex": "m18",
+        "ch_code": [
+            14,
+            101,
+            1
+        ]
+    },
+    {
+        "word": "konhda",
+        "start": 0.12,
+        "end": 0.17,
+        "name": "stuart_norne_94.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3568354925681392,
+        "ex": "m18",
+        "ch_code": [
+            14,
+            86,
+            0
+        ]
+    },
+    {
+        "word": "nawarddeken",
+        "start": 0.84,
+        "end": 0.912,
+        "name": "stuart_norne_75.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.3985023021606316,
+        "ex": "m19",
+        "ch_code": [
+            15,
+            38,
+            0
+        ]
+    },
+    {
+        "word": "nawarddeken",
+        "start": 1.89,
+        "end": 1.962,
+        "name": "stuart_norne_73.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.39928846369090754,
+        "ex": "m19",
+        "ch_code": [
+            15,
+            52,
+            1
+        ]
+    },
+    {
+        "word": "nawarddeken",
+        "start": 0.33,
+        "end": 0.402,
+        "name": "stuart_norne_121.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4038505810300139,
+        "ex": "m19",
+        "ch_code": [
+            15,
+            81,
+            0
+        ]
+    },
+    {
+        "word": "wurdurd",
+        "start": 3.27,
+        "end": 3.309,
+        "name": "stuart_norne_116.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.39752228816446766,
+        "ex": "m20",
+        "ch_code": [
+            16,
+            61,
+            3
+        ]
+    },
+    {
+        "word": "wurdurd",
+        "start": 0.09,
+        "end": 0.129,
+        "name": "stuart_norne_71.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.41034227643381416,
+        "ex": "m20",
+        "ch_code": [
+            16,
+            118,
+            0
+        ]
+    },
+    {
+        "word": "wurdurd",
+        "start": 0.18,
+        "end": 0.219,
+        "name": "stuart_norne_68.wav",
+        "value": true,
+        "checked": false,
+        "cost": 0.4223003147062491,
+        "ex": "m20",
+        "ch_code": [
+            16,
+            57,
+            0
+        ]
+    }
+]

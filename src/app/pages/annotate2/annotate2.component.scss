@@ -1,0 +1,98 @@
+
+@import '~@angular/material/theming';
+
+.spacer {
+    flex: 1 1 auto;
+}
+.layout {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    height: 1024px;
+    max-height: 500px;
+    padding: 5px;
+    .left {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        .annotate {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            margin-top: 10px; // clears the WS inserted mini map
+            .previous {
+                height: 50px;
+                display: flex;
+                flex-direction: column;
+            }
+            .current {
+                //height: 150px;
+                display: flex;
+                flex-direction: column;
+                font-size: 18px;
+                mat-form-field {
+                    margin-left: 4px;
+                    margin-top: -10px;
+                }
+                .popup {
+                    font-size: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    height: 18px;
+                    margin-bottom: 5px;
+                    flex-flow: row wrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    .entry {
+                        border-radius: 10px;
+                        margin-right: 5px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        background: lightgrey;
+            
+                    }
+                }
+                .wavesurfer-handle {
+                    background-color:red;
+                }
+            }
+            .next {
+                height: 50px;
+                display: flex;
+                flex-direction: column;
+            }
+            .text {
+                height: 20px;
+            }
+            .bigicon {
+                transform: scale(2);
+            }
+        }
+        .unready {
+            display: none;
+        }
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        max-height: 100%;
+        .transcript {
+            overflow-y: auto;
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            font-size: 1.2rem;
+            padding: 6px;
+            color: grey;
+            .token {
+                margin: 0px 0px 5px 0px;
+            }
+            .current {
+                color: black;
+            }
+        }
+    }
+
+}
+

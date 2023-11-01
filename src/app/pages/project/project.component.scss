@@ -1,0 +1,18 @@
+.layout {
+    padding: 10px;
+    mat-card {
+        position: relative;
+    }
+    button.moreicon {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .medialist {
+        margin-bottom:10px;
+    }
+
+}
+.spacer {
+    flex: 1 1 auto;
+}

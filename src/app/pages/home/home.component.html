@@ -1,0 +1,30 @@
+<mat-toolbar color="primary">
+    <div class="titletext">Projects</div>
+</mat-toolbar>
+
+<div class="mat-typology gday">G'day {{username}}!</div>
+
+<div class="layout">
+    <mat-list>
+        <mat-card *ngFor="let p of projects" (click)="openProject(p)">
+            <mat-card-title>{{p.name}}</mat-card-title>
+            <mat-card-subtitle>{{getDateString(p.date)}}</mat-card-subtitle>
+            <mat-card-content>
+                <mat-chip-list [selectable]="false">
+                    <mat-chip *ngFor="let lang of p.glossary_langs" selected color="accent" [disableRipple]="true">{{langToString(lang)}}</mat-chip>
+                </mat-chip-list>
+                <div class="desc">
+                    {{p.metadata?.description}}
+                </div>
+                <mat-chip-list>
+                    <mat-chip *ngFor="let tag of p.metadata?.tags">
+                        {{tag}}
+                    </mat-chip>
+                </mat-chip-list>
+            </mat-card-content>
+        </mat-card>
+    </mat-list>
+    <button mat-raised-button (click)="openNewProject()">New Project</button>
+</div>
+<!-- <app-inputinator></app-inputinator> -->
+<!-- <app-allodisplay></app-allodisplay> -->

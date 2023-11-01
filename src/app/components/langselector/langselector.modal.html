@@ -1,0 +1,32 @@
+<div class="content">
+
+<div *ngIf="start()" class="subheadtext">Type some letters to search</div>
+<div *ngIf="noHits()" class="subheadtext">No hits</div>
+
+<!-- <div class="langhits">
+  <div class="chippy"
+      *ngFor="let l of langhits" 
+      [innerHTML]="l.name | highlight: searchinput"
+      (click)="selectLang(l)">
+  </div>
+</div> -->
+<mat-chip-list>
+    <mat-chip *ngFor="let lang of langhits"
+            (click)="selectLang(lang)" [innerHTML]="lang.name | highlight: searchinput">
+    </mat-chip>
+</mat-chip-list>
+
+<!-- <ion-item>
+  <ion-input autocomplete="false" 
+    inputmode="text" 
+    spellcheck="false" 
+    placeholder="Type to search"
+    autofocus="true"
+    (ionChange)="input($event)"></ion-input>
+</ion-item> -->
+
+<mat-form-field class="example-full-width">
+    <mat-label>Type to search</mat-label>
+    <input matInput placeholder="" value="" [ngModel]="searchinput" (ngModelChange)="input($event)">
+  </mat-form-field>
+</div>
