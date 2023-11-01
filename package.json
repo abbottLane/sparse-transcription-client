@@ -21,6 +21,7 @@
     "@angular/platform-browser": "~11.2.0",
     "@angular/platform-browser-dynamic": "~11.2.0",
     "@angular/router": "~11.2.0",
+    "angular": "^1.8.3",
     "firebase": "^8.3.1",
     "haversine-position": "^1.0.3",
     "ngx-autosize-input": "^10.0.6",
